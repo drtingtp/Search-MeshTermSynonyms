@@ -14,7 +14,7 @@ To improve search coverage, search statements can be futher complemented by iden
 
 1. Select `Keyword`.
 
-    ![Goto Advanced Search and select Keyword](image.png)
+    ![Goto Advanced Search and select Keyword](static/img/image.png)
 
 1. Make sure `Map Term to Subject Heading` is checked.
 
@@ -22,21 +22,21 @@ To improve search coverage, search statements can be futher complemented by iden
 
 1. Click `Search`.
 
-    ![alt text](image-1.png)
+    ![alt text](static/img/image-1.png)
 
 1. In the results of Subject Heading mapping (titled `Your term mapped to the following Subject Headings`), click on the Subject Heading to view the MeSH term using the Subject Heading tree view.
 
 1. Alternatively, click on the `i` icon (`Scope` column) to view the scope note.
 
-    ![alt text](image-2.png)
+    ![alt text](static/img/image-2.png)
 
 1. In the Subject Heading tree view, scope note can be accessed by clicked the `i` icon under `Scope Note` column.
 
-    ![alt text](image-3.png)
+    ![alt text](static/img/image-3.png)
 
 1. In the Scope Note page, extract the synonyms under `User For` heading: 
 
-    ![alt text](image-4.png)
+    ![alt text](static/img/image-4.png)
 
 ## Step: Comprehensive search
 
