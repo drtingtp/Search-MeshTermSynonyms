@@ -44,7 +44,7 @@ To perform a comprehensive search using Ovid Medline on periodontitis (for examp
 
 1. We use the MeSH term (i.e. `periodontitis/`).
 
-    The trailing `/` signifies an exact subject heading search. It tells Ovid to look in the official subject heading field. It automatically includes any articles tagged with the narrower subject headings beneath it in the hierarchy.
+    The trailing slash `/` signifies an exact subject heading search. It tells Ovid to look in the official subject heading field for `periodontitis`. It automatically includes any articles tagged with the narrower subject headings beneath it in the subject heading hierarchy.
 
 1. We also combine the search with the following synonyms:
 
@@ -68,6 +68,21 @@ To perform a comprehensive search using Ovid Medline on periodontitis (for examp
     periodontitis/ OR
     (pericementiti* OR periodontitide*).mp.
     ```
+
+### Optional: Separate Step 1 and Step 2
+
+The search steps (Step 1 and Step 2) can be performed separately in the Ovid search form. By separating the steps, you will be able to visualise how many additional records that were retrieved via synonyms.
+
+At the time of writing:
+
+- `periodontitis/` returned `24,875` hits
+- `(pericementiti* or periodontitide*).mp.` returned `21` hits
+- `1 or 2` returned `24,890` hits
+
+![search history for separate steps](static/img/image-5.png)
+
+This means that the `mp` search using synonyms returned an additional `15` records.
+
 
 ## Credits
 
