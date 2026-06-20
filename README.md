@@ -2,9 +2,9 @@
 
 ## Introduction
 
-When conducting a comprehensive search of medical literature, using Medical Subject Headings (MeSH) to find related medical concepts is often recommended.
+When conducting a comprehensive search of medical literature, the use of Medical Subject Headings (MeSH) to retrieve articles tagged with relevant medical concepts is often recommended.
 
-To improve search coverage, search statements can be futher complemented by identifying the synonyms associated with MeSH terms. Below are the steps I have learned to extract relevant synonyms via Ovid's MeSH term scope notes.
+To improve search coverage, search statements can be further complemented by including synonyms associated with the MeSH terms. Below are the steps I have learned for extracting relevant synonyms via Ovid's MeSH term scope notes.
 
 ## Step: Identify synonyms
 
@@ -26,11 +26,11 @@ To improve search coverage, search statements can be futher complemented by iden
 
 1. In the results of Subject Heading mapping (titled `Your term mapped to the following Subject Headings`), click on the Subject Heading to view the MeSH term using the Subject Heading tree view.
 
-1. Alternatively, click on the `i` icon (`Scope` column) to view the scope note.
+1. Alternatively, click the `i` icon (under the `Scope` column) to view the scope note.
 
     ![alt text](static/img/image-2.png)
 
-1. In the Subject Heading tree view, scope note can be accessed by clicked the `i` icon under `Scope Note` column.
+1. In the Subject Heading tree view, scope note can be accessed by clicking the `i` icon (under the `Scope Note` column).
 
     ![alt text](static/img/image-3.png)
 
@@ -40,17 +40,17 @@ To improve search coverage, search statements can be futher complemented by iden
 
 ## Step: Comprehensive search
 
-To perform a comprehensive search using Ovid Medline (for example on periodontitis and its related Subject Headings): 
+To perform a comprehensive search using Ovid Medline on periodontitis (for example): 
 
 1. We use the MeSH term (i.e. `periodontitis/`).
 
     The trailing `/` signifies an exact subject heading search. It tells Ovid to look in the official subject heading field. It automatically includes any articles tagged with the narrower subject headings beneath it in the hierarchy.
 
-1. We also combine the following synonyms:
+1. We also combine the search with the following synonyms:
 
     ```
-    pericementitides
-    pericementitis
+    pericementitides OR
+    pericementitis OR
     periodontitides
     ```
 
@@ -60,9 +60,9 @@ To perform a comprehensive search using Ovid Medline (for example on periodontit
     (pericementiti* OR periodontitide*).mp.
     ```
 
-    `.mp.` stands for "multi purpose" for Ovid, by default it includes title, abstract and keywords ([link](https://ospguides.ovid.com/OSPguides/medline.htm#mpalias)).
+    `.mp.` stands for "multi purpose" for Ovid, by default it includes multiple field searches like title, abstract and keywords ([link](https://ospguides.ovid.com/OSPguides/medline.htm#mpalias)).
 
-1. Combine the above using `OR` operator:
+1. Combine all of the above using the `OR` operator:
 
     ```
     periodontitis/ OR
