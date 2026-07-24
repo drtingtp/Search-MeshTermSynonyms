@@ -89,3 +89,9 @@ This means that the `mp` search using synonyms returned an additional `15` recor
 Credit goes to Dr. Ainol Haniza binti Kherul Anuwar, who originally taught me this method. She picked up this technique during her tenure at the Malaysian Health Technology Assessment Section (MaHTAS), Ministry of Health Malaysia from 2016 to 2018.
 
 At the time of writing, Dr. Ainol is a senior lecturer in the Department of Community Oral Health & Clinical Prevention, Faculty of Dentistry, Universiti Malaya, Malaysia ([link to CV](https://umexpert.um.edu.my/ainolhaniza)).
+
+### Update as of 2026-07-24
+
+I recently discovered that the Ovid Training Team published a similar guide in 2024:
+
+OvidGO! Portal. Focused Searches: Constructing Free Term Searches with MeSH (Scope Notes) – Ovid MEDLINE [Internet]. London (UK): Ovid Training Team (Editors); 2024 [updated 25 October 2024; cited 30 October 2024]. Available from: https://tools.ovid.com/ovidgo/searches/view.php?id=60
