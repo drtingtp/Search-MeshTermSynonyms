@@ -38,19 +38,20 @@ To improve search coverage, search statements can be further expanded by includi
 
     ![alt text](static/img/image-4.png)
 
-## Step: Comprehensive search
+## Step: Develop search
 
 For example, to perform a comprehensive search on periodontitis: 
 
 1. We use the MeSH term search syntax `periodontitis/`.
 
-    Note: The trailing slash `/` signifies an exact subject heading search. It tells Ovid to look in the official subject heading field articles containing the subject heading `periodontitis`.
+    Note: The trailing slash `/` signifies an exact subject heading search. It tells Ovid to look in the official subject heading field for the term `periodontitis`.
     
-    It **does not** automatically include records with narrower subject headings beneath it in the subject heading hierarchy. To include **all** the descendant MeSH terms, use the `exp` operator, e.g. `exp periodontitis/`.
+    It **does not** automatically include records with narrower subject headings beneath it in the MeSH hierarchy. To include **all** the descendant MeSH terms, use the `exp` operator, e.g. `exp periodontitis/`.
 
-1. We also combine the search with the following synonyms:
+1. We then build the textword search using the term `periodontitis` and its synonyms:
 
     ```
+    periodontitis OR
     pericementitides OR
     pericementitis OR
     periodontitides
@@ -59,7 +60,7 @@ For example, to perform a comprehensive search on periodontitis:
     Which can be further simplified using the truncation syntax into:
 
     ```
-    (pericementiti* OR periodontitide*).mp.
+    (periodontiti* OR pericementiti*).mp.
     ```
 
     Note: The trailing `.mp.` stands for "multi purpose" for Ovid. It means the search will look into multiple fields like title, abstract and keywords ([detailed explanation](https://ospguides.ovid.com/OSPguides/medline.htm#mpalias)).
@@ -68,23 +69,22 @@ For example, to perform a comprehensive search on periodontitis:
 
     ```
     periodontitis/ OR
-    (pericementiti* OR periodontitide*).mp.
+    (periodontiti* OR pericementiti*).mp.
     ```
 
-### Optional: Separate Step 1 and Step 2
+### Optional: Separate MeSH and textword search
 
-The search steps (Step 1 and Step 2) can be performed separately in the Ovid search form. By separating the steps, you will be able to visualise how many additional records that were retrieved via synonyms.
+The search steps (MeSH term and textword) can be performed separately in the Ovid search form. By separating the steps, you will be able to visualise how many additional records that were retrieved via synonyms.
 
 At the time of writing:
 
-- `periodontitis/` returned `24,875` hits
-- `(pericementiti* or periodontitide*).mp.` returned `21` hits
-- `1 or 2` returned `24,890` hits
+- `periodontitis/` returned `25,086` hits
+- `(periodontiti* or pericementiti*).mp.` returned `53,140` hits
+- `1 or 2` returned `53,140` hits
 
 ![search history for separate steps](static/img/image-5.png)
 
-This means that the `mp` search using synonyms returned an additional `15` records.
-
+This indicates that the textword search yielded `28,054` additional records.
 
 ## Credits
 
