@@ -4,7 +4,7 @@
 
 When conducting a comprehensive medical literature search, it is often recommended to use Medical Subject Headings (MeSH) to retrieve relevant articles. However, one limitation of searching only with MeSH terms is that an article might not be indexed correctly under the MeSH system, even though the relevant term appears in its title or abstract.
 
-To improve search coverage, search statements can be further complemented by including synonyms associated with the MeSH terms. Below are the steps I have learned for extracting relevant synonyms via Ovid's MeSH term scope notes.
+To improve search coverage, search statements can be further expanded by including synonyms associated with the MeSH terms. Below are the steps on extracting relevant synonyms via Ovid's MeSH term scope notes.
 
 ## Step: Identify synonyms
 
@@ -40,9 +40,9 @@ To improve search coverage, search statements can be further complemented by inc
 
 ## Step: Comprehensive search
 
-To perform a comprehensive search using Ovid Medline on periodontitis (for example): 
+For example, to perform a comprehensive search on periodontitis: 
 
-1. We use the MeSH term (i.e. `periodontitis/`).
+1. We use the MeSH term search syntax `periodontitis/`.
 
     The trailing slash `/` signifies an exact subject heading search. It tells Ovid to look in the official subject heading field for `periodontitis`. It automatically includes any articles tagged with the narrower subject headings beneath it in the subject heading hierarchy.
 
@@ -60,7 +60,7 @@ To perform a comprehensive search using Ovid Medline on periodontitis (for examp
     (pericementiti* OR periodontitide*).mp.
     ```
 
-    `.mp.` stands for "multi purpose" for Ovid, by default it includes multiple field searches like title, abstract and keywords ([link](https://ospguides.ovid.com/OSPguides/medline.htm#mpalias)).
+    Note: The trailing `.mp.` stands for "multi purpose" for Ovid. It means the search will look into multiple fields like title, abstract and keywords ([detailed explanation](https://ospguides.ovid.com/OSPguides/medline.htm#mpalias)).
 
 1. Combine all of the above using the `OR` operator:
 
