@@ -44,7 +44,9 @@ For example, to perform a comprehensive search on periodontitis:
 
 1. We use the MeSH term search syntax `periodontitis/`.
 
-    The trailing slash `/` signifies an exact subject heading search. It tells Ovid to look in the official subject heading field for `periodontitis`. It automatically includes any articles tagged with the narrower subject headings beneath it in the subject heading hierarchy.
+    Note: The trailing slash `/` signifies an exact subject heading search. It tells Ovid to look in the official subject heading field articles containing the subject heading `periodontitis`.
+    
+    It **does not** automatically include records with narrower subject headings beneath it in the subject heading hierarchy. To include **all** the descendant MeSH terms, use the `exp` operator, e.g. `exp periodontitis/`.
 
 1. We also combine the search with the following synonyms:
 
