@@ -2,7 +2,7 @@
 
 ## Introduction
 
-When conducting a comprehensive search of medical literature, the use of Medical Subject Headings (MeSH) to retrieve articles tagged with relevant medical concepts is often recommended.
+When conducting a comprehensive medical literature search, it is often recommended to use Medical Subject Headings (MeSH) to retrieve relevant articles. However, one limitation of searching only with MeSH terms is that an article might not be indexed correctly under the MeSH system, even though the relevant term appears in its title or abstract.
 
 To improve search coverage, search statements can be further complemented by including synonyms associated with the MeSH terms. Below are the steps I have learned for extracting relevant synonyms via Ovid's MeSH term scope notes.
 
