@@ -96,4 +96,10 @@ At the time of writing, Dr. Ainol is a senior lecturer in the Department of Comm
 
 I recently discovered that the Ovid Training Team published a similar guide in 2024:
 
-OvidGO! Portal. Focused Searches: Constructing Free Term Searches with MeSH (Scope Notes) – Ovid MEDLINE [Internet]. London (UK): Ovid Training Team (Editors); 2024 [updated 25 October 2024; cited 30 October 2024]. Available from: https://tools.ovid.com/ovidgo/searches/view.php?id=60
+    OvidGO! Portal. Focused Searches: Constructing Free Term Searches with MeSH (Scope Notes) – Ovid MEDLINE [Internet]. London (UK): Ovid Training Team (Editors); 2024 [updated 25 October 2024; cited 30 October 2024]. Available from: https://tools.ovid.com/ovidgo/searches/view.php?id=60
+
+## Questions and feedback
+
+I welcome questions and feedback regarding this methodology. Refer to [this page](Comment.md) on how to comment via GitHub.
+
+[[Permalink to the source code of this document](README.md?plain=1)]
